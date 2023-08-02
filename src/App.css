@@ -1,0 +1,66 @@
+.header-name {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.header-name span {
+    font-size: 31px;
+}
+
+.taskform {
+    padding: 90px 0;
+}
+
+.taskform .user-input {
+    margin-bottom: 25px;
+    background: transparent;
+    color: white;
+    padding: 20px 20px;
+    border-color: #828282;
+    font-size: 22px;
+}
+
+.taskform .user-input:focus {
+    box-shadow: none;
+    border-color: white;
+}
+
+.taskform .user-input::placeholder {
+    color: #828282;
+}
+
+.btn:focus-visible {
+    box-shadow: none;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.task.completed .checkbox-user {
+    text-decoration: line-through;
+    color: #aaa;
+    
+}
+
+.checkbox-user {
+    font-size: 22px;
+}
+.task input[type='checkbox'] {
+    margin-right: 8px;
+    height: 25px;
+    width: 25px;
+}
+
+.main-div {
+    background-color: #232323;
+    color: #828282;
+    min-height: 100vh;
+}
